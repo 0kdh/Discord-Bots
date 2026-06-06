@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "version": "3.0.0",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "lastUpdated": "2026-05-21T21:50:36.532Z"
+  },
+  "config": {
+    "prefix": "!",
+    "language": "fr",
+    "logChannelId": null,
+    "adminRoles": [],
+    "staffRoles": [],
+    "mutedRoles": [],
+    "ticketCategoryId": null,
+    "archiveCategoryId": null,
+    "maxTicketsPerUser": 3,
+    "autoCloseTime": null,
+    "ticketCounter": 0,
+    "welcomeMessage": true,
+    "dmOnCreate": true,
+    "dmOnClose": true,
+    "transcriptOnClose": false,
+    "mentionStaff": true,
+    "ticketNameFormat": "ticket-{number}",
+    "embedColor": 5793266,
+    "footerText": "TicketBot Pro v3.0.0",
+    "footerIcon": null,
+    "thumbnailUrl": null,
+    "bannerUrl": null
+  },
+  "guilds": {
+    "EXAMPLE_GUILD_ID": {
+      "id": "1505981769864974447",
+      "prefix": "!",
+      "logChannelId": null,
+      "adminRoles": [],
+      "staffRoles": [],
+      "ticketCategoryId": null,
+      "archiveCategoryId": null,
+      "maxTicketsPerUser": 3,
+      "ticketCounter": 0,
+      "categories": [
+        {
+          "id": "support",
+          "label": "Support Technique",
+          "description": "Problèmes techniques, bugs et erreurs",
+          "emoji": "🛠️",
+          "color": 5793266,
+          "priority": "normal"
+        },
+        {
+          "id": "help",
+          "label": "Aide Générale",
+          "description": "Questions générales et aide diverses",
+          "emoji": "❓",
+          "color": 45300,
+          "priority": "low"
+        },
+        {
+          "id": "rc",
+          "label": "Réclamation / RC",
+          "description": "Signalements, réclamations et contestations",
+          "emoji": "🔄",
+          "color": 16763228,
+          "priority": "high"
+        },
+        {
+          "id": "staff",
+          "label": "Candidature Staff",
+          "description": "Postuler pour rejoindre l'équipe staff",
+          "emoji": "👨‍💼",
+          "color": 15844367,
+          "priority": "normal"
+        },
+        {
+          "id": "partnership",
+          "label": "Partenariat",
+          "description": "Propositions de partenariat et collaboration",
+          "emoji": "🤝",
+          "color": 10181046,
+          "priority": "normal"
+        },
+        {
+          "id": "ban_appeal",
+          "label": "Appel de Sanction",
+          "description": "Contester une sanction ou un bannissement",
+          "emoji": "⚖️",
+          "color": 15548997,
+          "priority": "high"
+        },
+        {
+          "id": "purchase",
+          "label": "Achat / Commande",
+          "description": "Questions relatives aux achats et commandes",
+          "emoji": "💳",
+          "color": 5763719,
+          "priority": "normal"
+        },
+        {
+          "id": "other",
+          "label": "Autre",
+          "description": "Toute autre demande non listée",
+          "emoji": "📝",
+          "color": 2829617,
+          "priority": "low"
+        }
+      ],
+      "embedTemplates": {
+        "welcome": {
+          "title": "🎉 Bienvenue sur notre serveur !",
+          "description": "Bienvenue ! Veuillez lire les règles et vous présenter.\n\nPour toute question, créez un ticket en cliquant sur le bouton ci-dessous.",
+          "color": 5793266,
+          "footer": "TicketBot Pro v3.0.0",
+          "thumbnail": null,
+          "image": null,
+          "author": null,
+          "fields": [
+            {
+              "name": "📋 Règles",
+              "value": "Consultez le salon #règles",
+              "inline": true
+            },
+            {
+              "name": "🎫 Support",
+              "value": "Créez un ticket pour de l'aide",
+              "inline": true
+            }
+          ],
+          "timestamp": true
+        },
+        "rules": {
+          "title": "📋 Règlement du Serveur",
+          "description": "Veuillez lire et respecter ces règles pour profiter au maximum du serveur.",
+          "color": 15548997,
+          "footer": "Le non-respect de ces règles entraîne des sanctions",
+          "thumbnail": null,
+          "image": null,
+          "author": null,
+          "fields": [
+            {
+              "name": "1️⃣ Respect",
+              "value": "Respectez tous les membres du serveur.",
+              "inline": false
+            },
+            {
+              "name": "2️⃣ Spam",
+              "value": "Aucun spam, flood ou message répétitif.",
+              "inline": false
+            },
+            {
+              "name": "3️⃣ Publicité",
+              "value": "Toute publicité non autorisée est interdite.",
+              "inline": false
+            },
+            {
+              "name": "4️⃣ NSFW",
+              "value": "Aucun contenu inapproprié.",
+              "inline": false
+            },
+            {
+              "name": "5️⃣ Staff",
+              "value": "Respectez les décisions du staff.",
+              "inline": false
+            }
+          ],
+          "timestamp": false
+        },
+        "maintenance": {
+          "title": "🔧 Maintenance en Cours",
+          "description": "Le serveur est actuellement en maintenance.\nNous reviendrons très bientôt !",
+          "color": 16763228,
+          "footer": "Merci de votre patience",
+          "thumbnail": null,
+          "image": null,
+          "author": null,
+          "fields": [
+            {
+              "name": "⏰ Durée estimée",
+              "value": "Environ 30 minutes",
+              "inline": true
+            }
+          ],
+          "timestamp": true
+        }
+      },
+      "panels": [],
+      "roleConfig": {},
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    "1505981769864974447": {
+      "id": "1505981769864974447",
+      "prefix": "!",
+      "logChannelId": "1506403265426882730",
+      "adminRoles": [],
+      "staffRoles": [],
+      "ticketCategoryId": null,
+      "archiveCategoryId": null,
+      "maxTicketsPerUser": 3,
+      "ticketCounter": 0,
+      "categories": [
+        {
+          "id": "support",
+          "label": "Support Technique",
+          "description": "Problèmes techniques, bugs et erreurs",
+          "emoji": "🛠️",
+          "color": 5793266,
+          "priority": "normal"
+        },
+        {
+          "id": "help",
+          "label": "Aide Générale",
+          "description": "Questions générales et aide diverses",
+          "emoji": "❓",
+          "color": 45300,
+          "priority": "low"
+        },
+        {
+          "id": "rc",
+          "label": "Réclamation / RC",
+          "description": "Signalements, réclamations et contestations",
+          "emoji": "🔄",
+          "color": 16705372,
+          "priority": "high"
+        },
+        {
+          "id": "staff",
+          "label": "Candidature Staff",
+          "description": "Postuler pour rejoindre l'équipe staff",
+          "emoji": "👨‍💼",
+          "color": 15844367,
+          "priority": "normal"
+        },
+        {
+          "id": "partnership",
+          "label": "Partenariat",
+          "description": "Propositions de partenariat et collaboration",
+          "emoji": "🤝",
+          "color": 10181046,
+          "priority": "normal"
+        },
+        {
+          "id": "ban_appeal",
+          "label": "Appel de Sanction",
+          "description": "Contester une sanction ou un bannissement",
+          "emoji": "⚖️",
+          "color": 15548997,
+          "priority": "high"
+        },
+        {
+          "id": "purchase",
+          "label": "Achat / Commande",
+          "description": "Questions relatives aux achats et commandes",
+          "emoji": "💳",
+          "color": 5763719,
+          "priority": "normal"
+        },
+        {
+          "id": "other",
+          "label": "Autre",
+          "description": "Toute autre demande non listée",
+          "emoji": "📝",
+          "color": 2895667,
+          "priority": "low"
+        }
+      ],
+      "embedTemplates": {},
+      "panels": [],
+      "roleConfig": {},
+      "createdAt": "2026-05-21T18:32:57.229Z"
+    }
+  },
+  "tickets": {
+    "active": {},
+    "closed": {},
+    "archived": {},
+    "counter": 0
+  },
+  "categories": [
+    {
+      "id": "support",
+      "label": "Support Technique",
+      "description": "Problèmes techniques, bugs et erreurs",
+      "emoji": "🛠️",
+      "color": 5793266,
+      "priority": "normal"
+    },
+    {
+      "id": "help",
+      "label": "Aide Générale",
+      "description": "Questions générales et aide diverses",
+      "emoji": "❓",
+      "color": 45300,
+      "priority": "low"
+    },
+    {
+      "id": "rc",
+      "label": "Réclamation / RC",
+      "description": "Signalements, réclamations et contestations",
+      "emoji": "🔄",
+      "color": 16763228,
+      "priority": "high"
+    },
+    {
+      "id": "staff",
+      "label": "Candidature Staff",
+      "description": "Postuler pour rejoindre l'équipe staff",
+      "emoji": "👨‍💼",
+      "color": 15844367,
+      "priority": "normal"
+    },
+    {
+      "id": "partnership",
+      "label": "Partenariat",
+      "description": "Propositions de partenariat et collaboration",
+      "emoji": "🤝",
+      "color": 10181046,
+      "priority": "normal"
+    },
+    {
+      "id": "ban_appeal",
+      "label": "Appel de Sanction",
+      "description": "Contester une sanction ou un bannissement",
+      "emoji": "⚖️",
+      "color": 15548997,
+      "priority": "high"
+    },
+    {
+      "id": "purchase",
+      "label": "Achat / Commande",
+      "description": "Questions relatives aux achats et commandes",
+      "emoji": "💳",
+      "color": 5763719,
+      "priority": "normal"
+    },
+    {
+      "id": "other",
+      "label": "Autre",
+      "description": "Toute autre demande non listée",
+      "emoji": "📝",
+      "color": 2829617,
+      "priority": "low"
+    }
+  ],
+  "embedTemplates": {},
+  "announcements": [
+    {
+      "id": "1779389294083",
+      "channelId": "1506724044873924801",
+      "guildId": "1505981769864974447",
+      "content": "SYSTÈME DE TEAM :emoji_20: Bienvenue dans le système de team du serveur ! Crée ta propre équipe, recrute des membres et affronte les autres teams pour devenir la plus active de la semaine. Fonctionnement :STAFF2: Chaque membre peut : :point_yougataga_1:Créer une team :point_yougataga_1:Rejoindre une team existante :point_yougataga_1:Quitter sa team Utilisez -help pour voir les commandes disponibles. Personnalisation de la team :STAFF: Le créateur de la team peut personnaliser plusieurs éléments : :point_yougataga_1: Couleur du rôle :point_yougataga_1: Nom de la team :point_yougataga_1: Photo / icône de la team :point_yougataga_1: Emoji de la team :point_yougataga_1: Nom de la vocal personnalisée :point_yougataga_1: Emoji de la vocal Chaque team possède son propre rôle et sa propre vocal personnalisable. Récompense hebdomadaire :MoneySoaring: Chaque dimanche, la team la plus active du serveur remporte : 100$ . L’activité est calculée selon l’implication des membres durant la semaine. Bonne chance à toutes les teams ! :KEH1: :flecherouge: Le salon ⁠︲🏘️︲hub-team sert à créer/rejoindre une team puis ⁠︲🏆︲leaderboard-team pour voir le classement !",
+      "sentBy": "1495764894530666567",
+      "sentAt": "2026-05-21T18:48:14.083Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "1779389121022",
+      "type": "CONFIG_CHANGED",
+      "guildId": "1505981769864974447",
+      "timestamp": "2026-05-21T18:45:21.022Z",
+      "data": {
+        "setting": "logChannel",
+        "newValue": "📁・logs-tickets",
+        "changedBy": {
+          "id": "1495764894530666567",
+          "tag": "8kdh"
+        }
+      }
+    },
+    {
+      "id": "1779389294083",
+      "type": "COMMAND_USED",
+      "guildId": "1505981769864974447",
+      "timestamp": "2026-05-21T18:48:14.083Z",
+      "data": {
+        "command": "announce",
+        "user": {
+          "id": "1495764894530666567",
+          "tag": "8kdh"
+        },
+        "channel": {
+          "id": "1506724044873924801",
+          "name": "💬・chat"
+        }
+      }
+    }
+  ],
+  "stats": {
+    "totalTicketsCreated": 0,
+    "totalTicketsClosed": 0,
+    "totalTicketsArchived": 0,
+    "totalCommandsUsed": 24,
+    "totalEmbedsSent": 1,
+    "totalAnnouncementsSent": 1,
+    "uptimeStart": "2026-05-21T20:32:03.147Z"
+  },
+  "panels": [
+    {
+      "id": "1507089290780217547",
+      "channelId": "1506724044873924801",
+      "guildId": "1505981769864974447",
+      "createdAt": "2026-05-21T18:34:43.451Z",
+      "createdBy": "1495764894530666567"
+    },
+    {
+      "id": "1507091582539530282",
+      "channelId": "1506724044873924801",
+      "guildId": "1505981769864974447",
+      "createdAt": "2026-05-21T18:43:49.674Z",
+      "createdBy": "1495764894530666567"
+    },
+    {
+      "id": "1507093326917144678",
+      "channelId": "1506724044873924801",
+      "guildId": "1505981769864974447",
+      "createdAt": "2026-05-21T18:50:45.569Z",
+      "createdBy": "1495764894530666567"
+    },
+    {
+      "id": "1507095072079085768",
+      "channelId": "1506724044873924801",
+      "guildId": "1505981769864974447",
+      "createdAt": "2026-05-21T18:57:41.529Z",
+      "createdBy": "1495764894530666567"
+    }
+  ],
+  "roleConfig": {},
+  "permissions": {},
+  "welcomeMessages": {},
+  "blacklist": [],
+  "whitelist": [],
+  "backupMeta": {
+    "reason": "shutdown",
+    "timestamp": "2026-05-21T21:50:36.537Z",
+    "version": "3.0.0"
+  }
+}

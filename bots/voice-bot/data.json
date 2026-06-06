@@ -1,0 +1,59 @@
+{
+  "guilds": {
+    "1505981769864974447": {
+      "prefix": "=",
+      "color": "#7B1FA2",
+      "logChannel": "1508471877226598640",
+      "logsEnabled": true,
+      "tempVcSetup": null,
+      "tempVcCategory": null,
+      "mods": [
+        "1125578898751619102",
+        "1495764894530666567"
+      ],
+      "helpers": [
+        "1125578898751619102"
+      ],
+      "language": "en"
+    }
+  },
+  "voiceStats": {
+    "1505981769864974447": {
+      "1495764894530666567": {
+        "totalMs": 17957985,
+        "joins": 14,
+        "lastTag": "8kdh"
+      },
+      "1511022082757103778": {
+        "totalMs": 21354632,
+        "joins": 4,
+        "lastTag": "xmrxmrxmrxmrxmrxmrxmrxmrxmrxmr"
+      },
+      "1135663017221161001": {
+        "totalMs": 60759,
+        "joins": 1,
+        "lastTag": "p1fc"
+      }
+    }
+  },
+  "tempChannels": {},
+  "antiVoice": {
+    "1505981769864974447": {
+      "enabled": false,
+      "sensitivity": 3,
+      "action": "warn",
+      "events": {}
+    }
+  },
+  "autoVoice": {
+    "1505981769864974447": {
+      "autoMute": false,
+      "afkTime": 30,
+      "autoCleanup": true,
+      "autoName": null
+    }
+  },
+  "voiceSessions": {
+    "1505981769864974447": {}
+  }
+}

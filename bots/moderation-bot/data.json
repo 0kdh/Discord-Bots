@@ -1,0 +1,416 @@
+{
+  "warns": {},
+  "bans": {},
+  "mutes": {
+    "1505981769864974447": {}
+  },
+  "notes": {},
+  "cases": {
+    "1505981769864974447": [
+      {
+        "id": 1,
+        "type": "MUTE",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "Aucune raison fournie",
+        "date": "2026-05-22T15:34:53.083Z"
+      },
+      {
+        "id": 2,
+        "type": "UNMUTE",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "Unmute manuel",
+        "date": "2026-05-22T15:35:11.739Z"
+      },
+      {
+        "id": 3,
+        "type": "MUTE",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "ad",
+        "date": "2026-05-22T15:58:16.499Z"
+      },
+      {
+        "id": 4,
+        "type": "UNMUTE",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "Unmute manuel",
+        "date": "2026-05-22T15:59:00.017Z"
+      },
+      {
+        "id": 5,
+        "type": "AUTOMUTE",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1496351584249188524",
+        "modTag": "KDH#0640",
+        "reason": "Anti-spam automatique",
+        "date": "2026-05-22T16:01:53.900Z"
+      },
+      {
+        "id": 6,
+        "type": "AUTOMUTE",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1496351584249188524",
+        "modTag": "KDH#0640",
+        "reason": "Anti-spam automatique",
+        "date": "2026-05-22T16:01:55.095Z"
+      },
+      {
+        "id": 7,
+        "type": "AUTOMUTE",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1496351584249188524",
+        "modTag": "KDH#0640",
+        "reason": "Anti-spam automatique",
+        "date": "2026-05-22T16:01:57.133Z"
+      },
+      {
+        "id": 8,
+        "type": "AUTOMUTE",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1496351584249188524",
+        "modTag": "KDH#0640",
+        "reason": "Anti-spam automatique",
+        "date": "2026-05-22T16:01:58.974Z"
+      },
+      {
+        "id": 9,
+        "type": "AUTOMUTE",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1496351584249188524",
+        "modTag": "KDH#0640",
+        "reason": "Anti-spam automatique",
+        "date": "2026-05-22T16:02:00.201Z"
+      },
+      {
+        "id": 10,
+        "type": "KICK",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "Aucune raison fournie",
+        "date": "2026-05-22T16:20:39.035Z"
+      },
+      {
+        "id": 11,
+        "type": "KICK",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "Aucune raison fournie",
+        "date": "2026-05-22T16:24:59.999Z"
+      },
+      {
+        "id": 12,
+        "type": "KICK",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "Aucune raison fournie",
+        "date": "2026-05-22T16:25:42.443Z"
+      },
+      {
+        "id": 13,
+        "type": "KICK",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "Aucune raison fournie",
+        "date": "2026-05-22T16:31:57.673Z"
+      },
+      {
+        "id": 14,
+        "type": "MUTE",
+        "userId": "1135663017221161001",
+        "userTag": "p1fc",
+        "modId": "1125578898751619102",
+        "modTag": "0kdh",
+        "reason": "Aucune raison fournie",
+        "date": "2026-05-22T19:28:31.441Z"
+      },
+      {
+        "id": 15,
+        "type": "UNMUTE",
+        "userId": "1135663017221161001",
+        "userTag": "p1fc",
+        "modId": "1125578898751619102",
+        "modTag": "0kdh",
+        "reason": "Unmute manuel",
+        "date": "2026-05-22T19:28:41.107Z"
+      },
+      {
+        "id": 16,
+        "type": "MUTE",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "ntm",
+        "date": "2026-05-25T14:06:07.598Z"
+      },
+      {
+        "id": 17,
+        "type": "UNMUTE",
+        "userId": "1125578898751619102",
+        "userTag": "0kdh",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "Unmute manuel",
+        "date": "2026-05-25T14:06:55.549Z"
+      },
+      {
+        "id": 18,
+        "type": "MUTE",
+        "userId": "1135663017221161001",
+        "userTag": "p1fc",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "Aucune raison fournie",
+        "date": "2026-05-25T16:45:18.992Z"
+      },
+      {
+        "id": 19,
+        "type": "MUTE",
+        "userId": "1135663017221161001",
+        "userTag": "p1fc",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "Aucune raison fournie",
+        "date": "2026-05-25T16:45:58.389Z"
+      },
+      {
+        "id": 20,
+        "type": "UNMUTE",
+        "userId": "1135663017221161001",
+        "userTag": "p1fc",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "Unmute manuel",
+        "date": "2026-05-25T16:46:23.916Z"
+      },
+      {
+        "id": 21,
+        "type": "KICK",
+        "userId": "824119071556763668",
+        "userTag": "Apollo#2300",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "Aucune raison fournie",
+        "date": "2026-06-04T16:00:34.381Z"
+      },
+      {
+        "id": 22,
+        "type": "MUTE",
+        "userId": "1511022082757103778",
+        "userTag": "xmrxmrxmrxmrxmrxmrxmrxmrxmrxmr",
+        "modId": "1495764894530666567",
+        "modTag": "8kdh",
+        "reason": "ntgrm",
+        "date": "2026-06-04T17:18:45.425Z"
+      },
+      {
+        "id": 23,
+        "type": "AUTOMUTE",
+        "userId": "1135663017221161001",
+        "userTag": "p1fc",
+        "modId": "1496351584249188524",
+        "modTag": "SORA#0640",
+        "reason": "Anti-spam automatique",
+        "date": "2026-06-05T19:47:15.861Z"
+      }
+    ]
+  },
+  "anti": {
+    "1505981769864974447": {
+      "LINK": true,
+      "SPAM": true,
+      "INVITE": true,
+      "BOT": true,
+      "RAID": true,
+      "CAPS": true,
+      "MENTION": true,
+      "ZALGO": true,
+      "FLOOD": true
+    },
+    "1507759940746477709": {
+      "LINK": true,
+      "SPAM": true,
+      "INVITE": true,
+      "BOT": false,
+      "RAID": true,
+      "CAPS": false,
+      "MENTION": false,
+      "ZALGO": false,
+      "FLOOD": false
+    },
+    "1320511106287927306": {
+      "LINK": true,
+      "SPAM": true,
+      "INVITE": true,
+      "BOT": true,
+      "RAID": true,
+      "CAPS": false,
+      "MENTION": false,
+      "ZALGO": false,
+      "FLOOD": false
+    }
+  },
+  "blacklistWords": {},
+  "whitelistRoles": {},
+  "whitelistChannels": {},
+  "guildConfig": {
+    "1505981769864974447": {
+      "PREFIX": "-",
+      "LOG_CHANNEL_NAME": "📁・logs-modération",
+      "MUTED_ROLE": "Muted",
+      "BOT_MSG_DELETE": false,
+      "BOT_MSG_DELAY": 5000,
+      "CMD_MSG_DELETE": false,
+      "CMD_MSG_DELAY": 0,
+      "STAFF_ROLES": [
+        "Fondateur",
+        "BOT=BOT",
+        "créateur",
+        "Gerant",
+        "Créateur"
+      ]
+    },
+    "1507759940746477709": {
+      "STAFF_ROLES": [
+        "Fondateur",
+        "Admin",
+        "Modérateur",
+        "BOT=BOT",
+        "SORA"
+      ]
+    },
+    "1320511106287927306": {
+      "STAFF_ROLES": [
+        "Fondateur",
+        "Admin",
+        "Modérateur",
+        "BOT=BOT"
+      ]
+    }
+  },
+  "slowmodeLog": {},
+  "lockLog": {
+    "1505981769864974447": [
+      "1506408415352590416",
+      "1507472734035382474",
+      "1506002102961438760"
+    ],
+    "1320511106287927306": [
+      "1512112067396767874"
+    ]
+  },
+  "muteRoles": {},
+  "modRoles": {
+    "1505981769864974447": [
+      "1506357094721392831",
+      "1505993869639159909",
+      "1505993873200250891"
+    ],
+    "1507759940746477709": [
+      "1508265465804488856",
+      "1508269846436249620"
+    ],
+    "1320511106287927306": [
+      "1504850610199986349"
+    ]
+  },
+  "autoroles": {},
+  "sanctions": {},
+  "logsConfig": {
+    "1505981769864974447": {
+      "channels": {
+        "ban": "1512652972469915768",
+        "tempban": "1512652972469915768",
+        "unban": "1512652972469915768",
+        "softban": "1512652972469915768",
+        "massban": "1512652972469915768",
+        "kick": "1512652972469915768",
+        "masskick": "1512652972469915768",
+        "warn": "1512652972469915768",
+        "delwarn": "1512652972469915768",
+        "clearwarns": "1512652972469915768",
+        "mute": "1512653741361463296",
+        "tempmute": "1512653741361463296",
+        "unmute": "1512653741361463296",
+        "timeout": "1512653741361463296",
+        "untimeout": "1512653741361463296",
+        "massmute": "1512653741361463296",
+        "massunmute": "1512653741361463296",
+        "masstimeout": "1512653741361463296",
+        "join": "1512652647524601966",
+        "leave": "1512652647524601966",
+        "nick": "1512652647524601966",
+        "verify": "1512652647524601966",
+        "note": "1512652647524601966",
+        "role_add": "1512651481822531705",
+        "role_remove": "1512651481822531705",
+        "roleall": "1512651481822531705",
+        "role_create": "1512651481822531705",
+        "role_delete": "1512651481822531705",
+        "role_edit": "1512651481822531705",
+        "msg_delete": "1512655316838252655",
+        "msg_edit": "1512655316838252655",
+        "msg_clear": "1512655316838252655",
+        "say": "1512655316838252655",
+        "ch_create": "1512651653738790983",
+        "ch_delete": "1512651653738790983",
+        "ch_edit": "1512651653738790983",
+        "lock": "1512651653738790983",
+        "unlock": "1512651653738790983",
+        "slowmode": "1512651653738790983",
+        "voice_join": "1512651771070255154",
+        "voice_leave": "1512651771070255154",
+        "voice_move": "1512651771070255154",
+        "automod": "1512651829400436846",
+        "antilink": "1512651829400436846",
+        "antispam": "1512651829400436846",
+        "antiraid": "1512651829400436846",
+        "antiinvite": "1512651829400436846",
+        "config": "1512651909612175490",
+        "invite": "1512651909612175490"
+      },
+      "enabled": {}
+    }
+  },
+  "statsConfig": {
+    "1505981769864974447": {
+      "title": "**__Statistiques — SORA #🔞 __**",
+      "color": 8069026,
+      "thumbnail": "https://cdn.discordapp.com/attachments/1509938649473613825/1512567635810848818/sdfsdf-ezgif.com-animated-gif-maker.gif?ex=6a248fe2&is=6a233e62&hm=8a7f736a1972bcaf7bdb5bdfc98293e1ea21dea9230cd9e33fe196aa2424cb37&",
+      "emojiBoosts": "<a:22875nitro:1506696243068534844>",
+      "emojiOnline": "<a:49198online1:1512569315558293514>",
+      "emojiMembres": "<:928205membericon:1512569298470572142>",
+      "emojiVocal": "<a:7392sound:1512570092439863547>",
+      "footerText": "SORA💜",
+      "footerIcon": "https://cdn.discordapp.com/attachments/1509938649473613825/1512570612776833155/sdfsdf-ezgif.com-animated-gif-maker.gif?ex=6a2492a8&is=6a234128&hm=72d1ec16926363d3e5c62979e38a1cb3dc96fc7729222fbfb9212102b26a57a0&",
+      "autoRefresh": true,
+      "autoRefreshChannelId": "1506002004911063182",
+      "autoRefreshMessageId": "1512611832907436182",
+      "autoRefreshInterval": 5
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Dépendances
+node_modules/
+
+# Variables d'environnement (contient le token Discord)
+.env
+
+# Base de données SQLite (NE PAS UPLOAD SUR GITHUB)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+data/
+
+# Fichiers locaux de développement
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

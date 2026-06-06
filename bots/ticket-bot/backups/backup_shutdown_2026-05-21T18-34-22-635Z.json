@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "version": "3.0.0",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "lastUpdated": "2026-05-21T18:34:22.634Z"
+  },
+  "config": {
+    "prefix": "!",
+    "language": "fr",
+    "logChannelId": null,
+    "adminRoles": [],
+    "staffRoles": [],
+    "mutedRoles": [],
+    "ticketCategoryId": null,
+    "archiveCategoryId": null,
+    "maxTicketsPerUser": 3,
+    "autoCloseTime": null,
+    "ticketCounter": 0,
+    "welcomeMessage": true,
+    "dmOnCreate": true,
+    "dmOnClose": true,
+    "transcriptOnClose": false,
+    "mentionStaff": true,
+    "ticketNameFormat": "ticket-{number}",
+    "embedColor": 5793266,
+    "footerText": "TicketBot Pro v3.0.0",
+    "footerIcon": null,
+    "thumbnailUrl": null,
+    "bannerUrl": null
+  },
+  "guilds": {
+    "EXAMPLE_GUILD_ID": {
+      "id": "1505981769864974447",
+      "prefix": "!",
+      "logChannelId": null,
+      "adminRoles": [],
+      "staffRoles": [],
+      "ticketCategoryId": null,
+      "archiveCategoryId": null,
+      "maxTicketsPerUser": 3,
+      "ticketCounter": 0,
+      "categories": [
+        {
+          "id": "support",
+          "label": "Support Technique",
+          "description": "Problèmes techniques, bugs et erreurs",
+          "emoji": "🛠️",
+          "color": 5793266,
+          "priority": "normal"
+        },
+        {
+          "id": "help",
+          "label": "Aide Générale",
+          "description": "Questions générales et aide diverses",
+          "emoji": "❓",
+          "color": 45300,
+          "priority": "low"
+        },
+        {
+          "id": "rc",
+          "label": "Réclamation / RC",
+          "description": "Signalements, réclamations et contestations",
+          "emoji": "🔄",
+          "color": 16763228,
+          "priority": "high"
+        },
+        {
+          "id": "staff",
+          "label": "Candidature Staff",
+          "description": "Postuler pour rejoindre l'équipe staff",
+          "emoji": "👨‍💼",
+          "color": 15844367,
+          "priority": "normal"
+        },
+        {
+          "id": "partnership",
+          "label": "Partenariat",
+          "description": "Propositions de partenariat et collaboration",
+          "emoji": "🤝",
+          "color": 10181046,
+          "priority": "normal"
+        },
+        {
+          "id": "ban_appeal",
+          "label": "Appel de Sanction",
+          "description": "Contester une sanction ou un bannissement",
+          "emoji": "⚖️",
+          "color": 15548997,
+          "priority": "high"
+        },
+        {
+          "id": "purchase",
+          "label": "Achat / Commande",
+          "description": "Questions relatives aux achats et commandes",
+          "emoji": "💳",
+          "color": 5763719,
+          "priority": "normal"
+        },
+        {
+          "id": "other",
+          "label": "Autre",
+          "description": "Toute autre demande non listée",
+          "emoji": "📝",
+          "color": 2829617,
+          "priority": "low"
+        }
+      ],
+      "embedTemplates": {
+        "welcome": {
+          "title": "🎉 Bienvenue sur notre serveur !",
+          "description": "Bienvenue ! Veuillez lire les règles et vous présenter.\n\nPour toute question, créez un ticket en cliquant sur le bouton ci-dessous.",
+          "color": 5793266,
+          "footer": "TicketBot Pro v3.0.0",
+          "thumbnail": null,
+          "image": null,
+          "author": null,
+          "fields": [
+            {
+              "name": "📋 Règles",
+              "value": "Consultez le salon #règles",
+              "inline": true
+            },
+            {
+              "name": "🎫 Support",
+              "value": "Créez un ticket pour de l'aide",
+              "inline": true
+            }
+          ],
+          "timestamp": true
+        },
+        "rules": {
+          "title": "📋 Règlement du Serveur",
+          "description": "Veuillez lire et respecter ces règles pour profiter au maximum du serveur.",
+          "color": 15548997,
+          "footer": "Le non-respect de ces règles entraîne des sanctions",
+          "thumbnail": null,
+          "image": null,
+          "author": null,
+          "fields": [
+            {
+              "name": "1️⃣ Respect",
+              "value": "Respectez tous les membres du serveur.",
+              "inline": false
+            },
+            {
+              "name": "2️⃣ Spam",
+              "value": "Aucun spam, flood ou message répétitif.",
+              "inline": false
+            },
+            {
+              "name": "3️⃣ Publicité",
+              "value": "Toute publicité non autorisée est interdite.",
+              "inline": false
+            },
+            {
+              "name": "4️⃣ NSFW",
+              "value": "Aucun contenu inapproprié.",
+              "inline": false
+            },
+            {
+              "name": "5️⃣ Staff",
+              "value": "Respectez les décisions du staff.",
+              "inline": false
+            }
+          ],
+          "timestamp": false
+        },
+        "maintenance": {
+          "title": "🔧 Maintenance en Cours",
+          "description": "Le serveur est actuellement en maintenance.\nNous reviendrons très bientôt !",
+          "color": 16763228,
+          "footer": "Merci de votre patience",
+          "thumbnail": null,
+          "image": null,
+          "author": null,
+          "fields": [
+            {
+              "name": "⏰ Durée estimée",
+              "value": "Environ 30 minutes",
+              "inline": true
+            }
+          ],
+          "timestamp": true
+        }
+      },
+      "panels": [],
+      "roleConfig": {},
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    "1505981769864974447": {
+      "id": "1505981769864974447",
+      "prefix": "!",
+      "logChannelId": null,
+      "adminRoles": [],
+      "staffRoles": [],
+      "ticketCategoryId": null,
+      "archiveCategoryId": null,
+      "maxTicketsPerUser": 3,
+      "ticketCounter": 0,
+      "categories": [
+        {
+          "id": "support",
+          "label": "Support Technique",
+          "description": "Problèmes techniques, bugs et erreurs",
+          "emoji": "🛠️",
+          "color": 5793266,
+          "priority": "normal"
+        },
+        {
+          "id": "help",
+          "label": "Aide Générale",
+          "description": "Questions générales et aide diverses",
+          "emoji": "❓",
+          "color": 45300,
+          "priority": "low"
+        },
+        {
+          "id": "rc",
+          "label": "Réclamation / RC",
+          "description": "Signalements, réclamations et contestations",
+          "emoji": "🔄",
+          "color": 16705372,
+          "priority": "high"
+        },
+        {
+          "id": "staff",
+          "label": "Candidature Staff",
+          "description": "Postuler pour rejoindre l'équipe staff",
+          "emoji": "👨‍💼",
+          "color": 15844367,
+          "priority": "normal"
+        },
+        {
+          "id": "partnership",
+          "label": "Partenariat",
+          "description": "Propositions de partenariat et collaboration",
+          "emoji": "🤝",
+          "color": 10181046,
+          "priority": "normal"
+        },
+        {
+          "id": "ban_appeal",
+          "label": "Appel de Sanction",
+          "description": "Contester une sanction ou un bannissement",
+          "emoji": "⚖️",
+          "color": 15548997,
+          "priority": "high"
+        },
+        {
+          "id": "purchase",
+          "label": "Achat / Commande",
+          "description": "Questions relatives aux achats et commandes",
+          "emoji": "💳",
+          "color": 5763719,
+          "priority": "normal"
+        },
+        {
+          "id": "other",
+          "label": "Autre",
+          "description": "Toute autre demande non listée",
+          "emoji": "📝",
+          "color": 2895667,
+          "priority": "low"
+        }
+      ],
+      "embedTemplates": {},
+      "panels": [],
+      "roleConfig": {},
+      "createdAt": "2026-05-21T18:32:57.229Z"
+    }
+  },
+  "tickets": {
+    "active": {},
+    "closed": {},
+    "archived": {},
+    "counter": 0
+  },
+  "categories": [
+    {
+      "id": "support",
+      "label": "Support Technique",
+      "description": "Problèmes techniques, bugs et erreurs",
+      "emoji": "🛠️",
+      "color": 5793266,
+      "priority": "normal"
+    },
+    {
+      "id": "help",
+      "label": "Aide Générale",
+      "description": "Questions générales et aide diverses",
+      "emoji": "❓",
+      "color": 45300,
+      "priority": "low"
+    },
+    {
+      "id": "rc",
+      "label": "Réclamation / RC",
+      "description": "Signalements, réclamations et contestations",
+      "emoji": "🔄",
+      "color": 16763228,
+      "priority": "high"
+    },
+    {
+      "id": "staff",
+      "label": "Candidature Staff",
+      "description": "Postuler pour rejoindre l'équipe staff",
+      "emoji": "👨‍💼",
+      "color": 15844367,
+      "priority": "normal"
+    },
+    {
+      "id": "partnership",
+      "label": "Partenariat",
+      "description": "Propositions de partenariat et collaboration",
+      "emoji": "🤝",
+      "color": 10181046,
+      "priority": "normal"
+    },
+    {
+      "id": "ban_appeal",
+      "label": "Appel de Sanction",
+      "description": "Contester une sanction ou un bannissement",
+      "emoji": "⚖️",
+      "color": 15548997,
+      "priority": "high"
+    },
+    {
+      "id": "purchase",
+      "label": "Achat / Commande",
+      "description": "Questions relatives aux achats et commandes",
+      "emoji": "💳",
+      "color": 5763719,
+      "priority": "normal"
+    },
+    {
+      "id": "other",
+      "label": "Autre",
+      "description": "Toute autre demande non listée",
+      "emoji": "📝",
+      "color": 2829617,
+      "priority": "low"
+    }
+  ],
+  "embedTemplates": {},
+  "announcements": [],
+  "logs": [],
+  "stats": {
+    "totalTicketsCreated": 0,
+    "totalTicketsClosed": 0,
+    "totalTicketsArchived": 0,
+    "totalCommandsUsed": 1,
+    "totalEmbedsSent": 0,
+    "totalAnnouncementsSent": 0,
+    "uptimeStart": "2026-05-21T18:32:57.229Z"
+  },
+  "panels": [],
+  "roleConfig": {},
+  "permissions": {},
+  "welcomeMessages": {},
+  "blacklist": [],
+  "whitelist": [],
+  "backupMeta": {
+    "reason": "shutdown",
+    "timestamp": "2026-05-21T18:34:22.635Z",
+    "version": "3.0.0"
+  }
+}

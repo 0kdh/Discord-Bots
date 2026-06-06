@@ -1,0 +1,92 @@
+{
+    "token": "",
+    "prefix": "&",
+    "ownerIds": [],
+    "optout": [],
+    "guilds": {
+        "1505981769864974447": {
+            "optouts": [],
+            "blacklist": [],
+            "whitelist": [],
+            "whitelistMode": false,
+            "enabled": true,
+            "templates": {},
+            "schedules": []
+        }
+    },
+    "global": {
+        "cooldowns": {},
+        "startupCount": 0
+    },
+    "templates": {},
+    "schedules": [],
+    "blacklists": {},
+    "whitelists": {},
+    "stats": {
+        "1505981769864974447": {
+            "totalSent": 10,
+            "totalFailed": 0,
+            "totalBlocked": 0,
+            "totalCampaigns": 4,
+            "campaigns": [
+                {
+                    "id": "mph53pap5ker",
+                    "timestamp": 1779467664337,
+                    "total": 3,
+                    "ok": 3,
+                    "fail": 0,
+                    "blocked": 0,
+                    "duration": 1.8,
+                    "cancelled": false,
+                    "targetType": "all",
+                    "roleName": null,
+                    "by": "8kdh",
+                    "template": null
+                },
+                {
+                    "id": "mpg1khy2ygjc",
+                    "timestamp": 1779401263322,
+                    "total": 3,
+                    "ok": 3,
+                    "fail": 0,
+                    "blocked": 0,
+                    "duration": 1.2,
+                    "cancelled": false,
+                    "targetType": "all",
+                    "roleName": null,
+                    "by": "8kdh",
+                    "template": null
+                },
+                {
+                    "id": "mpg1jj4kqhcm",
+                    "timestamp": 1779401218197,
+                    "total": 1,
+                    "ok": 1,
+                    "fail": 0,
+                    "blocked": 0,
+                    "duration": 0.6,
+                    "cancelled": false,
+                    "targetType": "user",
+                    "roleName": null,
+                    "by": "8kdh",
+                    "template": null
+                },
+                {
+                    "id": "mpg1bh57024y",
+                    "timestamp": 1779400842379,
+                    "total": 3,
+                    "ok": 3,
+                    "fail": 0,
+                    "blocked": 0,
+                    "duration": 2.6,
+                    "cancelled": false,
+                    "targetType": "all",
+                    "roleName": null,
+                    "by": "8kdh",
+                    "template": null
+                }
+            ]
+        }
+    },
+    "settings": {}
+}

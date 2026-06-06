@@ -1,0 +1,14 @@
+{
+  "name": "all-bots",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"node bots/backup-bot/bot.cjs\" \"node bots/dmall-noctur/bot.cjs\" \"node bots/giveaway-bot/bot.cjs\" \"node bots/moderation-bot/bot.cjs\" \"node bots/ticket-bot/bot.cjs\" \"node bots/vip-bot/bot.cjs\" \"node bots/voice-bot/bot.cjs\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "ms": "^2.1.3",
+    "uuid": "^14.0.0"
+  }
+}

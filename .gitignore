@@ -1,0 +1,17 @@
+# Dépendances
+node_modules/
+
+# Fichiers sensibles
+.env
+.env.*
+!.env.example
+
+# Bases de données locales (vip-bot)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+bots/vip-bot/data/
+
+# OS
+.DS_Store
+Thumbs.db

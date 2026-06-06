@@ -1,0 +1,25 @@
+{
+    "name": "dmall-noctur",
+    "version": "3.0.0",
+    "description": "DMAll Bot — Systeme de DM massif Discord professionnel",
+    "main": "bot.cjs",
+    "scripts": {
+        "start": "node bot.cjs",
+        "dev": "node --watch bot.cjs"
+    },
+    "dependencies": {
+        "discord.js": "^14.26.4",
+        "dotenv": "^17.4.2"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "dmall",
+        "mass-dm"
+    ],
+    "author": "",
+    "license": "MIT"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "sora-voice",
+  "version": "2.0.0",
+  "description": "SORA Voice - The most complete Discord voice channel management bot",
+  "main": "bot.cjs",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "bot": "node bot.cjs"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "voice",
+    "discord.js",
+    "voice-channels",
+    "moderation"
+  ],
+  "author": "SORA Voice Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "discord.js": "^14.26.4",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "vite": "^8.0.14",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
